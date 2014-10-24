@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:text="Register Page" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center"></TextView>
+    <EditText android:layout_height="wrap_content" android:id="@+id/UserText" android:layout_width="fill_parent"></EditText>
+    <EditText android:id="@+id/FirstText" android:layout_height="wrap_content" android:layout_width="fill_parent">
+        <requestFocus></requestFocus>
+    </EditText>
+    <EditText android:layout_width="fill_parent" android:id="@+id/LastText" android:layout_height="wrap_content"></EditText>
+    <EditText android:id="@+id/PhoneText" android:layout_height="wrap_content" android:layout_width="fill_parent"></EditText>
+    <TextView android:text="Enter Password Below" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView2" android:layout_gravity="center"></TextView>
+    <EditText android:layout_width="fill_parent" android:id="@+id/PassText" android:layout_height="wrap_content" android:inputType="textPassword"></EditText>
+    <Button android:text="Register Details" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/TheRegister"></Button>
+</LinearLayout>
